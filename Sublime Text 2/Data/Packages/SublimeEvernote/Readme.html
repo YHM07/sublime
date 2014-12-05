@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Readme.md</title>
+<link href="file:///D:\Program Files\Sublime Text 2\Data\Packages\Markdown Preview\markdown.css" type="text/css" rel="stylesheet" />
+<link href="file:///D:\Program Files\Sublime Text 2\Data\Packages\Markdown Preview\highlight\styles\googlecode.css" type="text/css" rel="stylesheet" />
+<script src="file:///D:\Program Files\Sublime Text 2\Data\Packages\Markdown Preview\highlight\highlight.pack.js" type="text/javascript"></script>
+<script>hljs.tabReplace = '  ';hljs.initHighlightingOnLoad();</script>
+<script src="file:///D:\Program Files\Sublime Text 2\Data\Packages\Markdown Preview\mathjax\MathJax.js?config=default" type="text/javascript"></script>
+</head>
+<body>
+<h1>SublimeEvernote</h1>
+<p><a href="http://www.sublimetext.com/2">Sublime Text 2</a> plugin for <a href="http://www.evernote.com">Evernote</a> </p>
+<h3>Install</h3>
+<p>Through <a href="http://wbond.net/sublime_packages/package_control">Package Control</a></p>
+<p><code>Command Palette</code> &gt; <code>Package Control: Install Package</code> &gt; <code>SublimeEvernote</code></p>
+<p>or</p>
+<p><code>Command Palette</code> &gt; <code>Package Control: add Repository</code> &amp;&amp; <code>input 'http://github.com/jamiesun/SublimeEvernote</code></p>
+<p><code>Command Palette</code> &gt; <code>Package Control: Install Package</code> &gt; <code>SublimeEvernote</code></p>
+<p>or clone this repository in</p>
+<ul>
+<li>Windows: <code>%APPDATA%/Roaming/Sublime Text 2/Packages/</code></li>
+<li>OSX: <code>~/Library/Application Support/Sublime Text 2/Packages/</code></li>
+<li>Linux: <code>~/.Sublime Text 2/Packages/</code></li>
+<li>Portable Installation: <code>Sublime Text 2/Data/</code></li>
+</ul>
+<h3>Usage</h3>
+<p><code>Command Palette</code> &gt; <code>Send to evernote</code></p>
+<p><code>Context menu</code> &gt; <code>Send to Evernote</code></p>
+<p><code>Context menu</code> &gt; <code>Evernote settings</code></p>
+<h4>Markdown Support</h4>
+<p>Write notes in Markdown and they will be processed when they are sent to Evernote.</p>
+<p>This:
+<img alt="this" src="https://dl.dropbox.com/u/643062/SublimeEvernoteScreenshots/Markdown.png" /></p>
+<p>Turns into this:
+<img alt="this" src="https://dl.dropbox.com/u/643062/SublimeEvernoteScreenshots/Evernote.png" /></p>
+<h4>Authenticating with Evernote</h4>
+<p>In order to send notes you need to authenticate and allow the plugin permissions via Evernote's oauth. 
+This is a bit of a manual process now as there are no callbacks to Sublime to handle this process automatically.
+Here are a collection of screenshots to step you through the process.</p>
+<h5>Step 1 - Sublime text2 open your browser,you need login:</h5>
+<p><img alt="login" src="https://raw.githubusercontent.com/jamiesun/SublimeEvernote/master/snapshot/login.png" /></p>
+<h5>Step 2 - Authorize plugin with Evernote:</h5>
+<p><img alt="authorize" src="https://raw.github.com/dencold/static/master/images/sublimeevernote/2_authorize.png" /></p>
+<h5>Step 3 - Copy oauth verifier</h5>
+<p><img alt="redirect" src="https://raw.github.com/dencold/static/master/images/sublimeevernote/3_redirect.png" />
+<img alt="verifier" src="https://raw.github.com/dencold/static/master/images/sublimeevernote/4_oauth_verifier.png" /></p>
+<h5>Step 4 - Verify token on Sublime</h5>
+<p><img alt="redirect" src="https://raw.github.com/dencold/static/master/images/sublimeevernote/5_verify_sublime.png" /></p>
+<h5>Step 5 - Rejoice!</h5>
+<p><img alt="redirect" src="https://raw.github.com/dencold/static/master/images/sublimeevernote/6_rejoice.png" /></p>
+<h4>Metadata</h4>
+<p>Use metadata block to specify title and tags.</p>
+<pre><code>---
+title: My Note
+tags: tag1,tag2
+---
+</code></pre>
+</body>
+</html>

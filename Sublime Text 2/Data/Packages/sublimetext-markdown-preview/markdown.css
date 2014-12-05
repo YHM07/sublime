@@ -1,0 +1,60 @@
+html, body{height: auto;}
+
+body{font:1em/1.5 "Microsoft YaHei",STHeiti,Georgia,"Times New Roman",Times,serif;color:#000; width: 45em; margin: 0 auto; padding: 4em; background: #DDD}
+a{ color: #0645ad; text-decoration:none;}
+a:visited{ color: #0b0080; }
+a:hover{ color: #06e; }
+a:active{ color:#faa700; }
+a:focus{ outline: thin dotted; }
+a:hover, a:active{ outline: 0; }
+
+
+p{margin:1em 0;}
+img{max-width:100%; text-align:center; }
+
+h1,h2,h3,h4,h5,h6{line-height:1.2em; font-weight: bold; } 
+h1{ font-size:2.5em; }
+h2{ font-size:2em; }
+h3{ font-size:1.5em; }
+h4{ font-size:1.2em; }
+h5{ font-size:1.1em; }
+h6{ font-size:1em; }
+
+
+blockquote{color:#444; margin:0.5em; padding-left: 1.5em; border-left: 0.3em #CCC solid; } 
+hr { display: block; height: 2px; border: 0; border-top: 1px solid #aaa;border-bottom: 1px solid #eee; margin: 1em 0; padding: 0; }
+
+li code,p code{font:0.95em/1.2 "Microsoft YaHei",STHeiti,Georgia,"Times New Roman",Times,serif;color:#000;padding: 1px 3px; margin:0px 5px 0px 5px;}
+pre , code, kbd, samp {border-radius:3px; background-color: #FAFAFA; border: 1px solid #CCC; } 
+pre { padding: 5px; overflow: auto;scrollbar-face-color:#70807d;}
+pre code { border: 0px !important; }
+
+
+b, strong { font-weight: bold; }
+
+dfn { font-style: italic; }
+
+ins { background: #ff9; color: #000; text-decoration: none; }
+
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+ul, ol { margin: 1em 0; padding: 0 0 0 2em; }
+li p:last-child { margin:0 M}
+dd { margin: 0 0 0 2em; }
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+@media only print {
+  * { background: transparent !important;}
+  body{width:98%;outline:0;marigin:0.2em;padding: 0.2em;}
+  span{marign:0 3px 0 3px;}
+  @page :left { margin: 25mm 20mm 25mm 20mm; }
+  @page :right { margin: 25mm 20mm 25mm 20mm; }
+}

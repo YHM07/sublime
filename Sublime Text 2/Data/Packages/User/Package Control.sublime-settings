@@ -1,0 +1,19 @@
+{
+	"installed_packages":
+	[
+		"Code Alignment",
+		"ColorPicker",
+		"DocBlockr",
+		"Emmet",
+		"GBK Encoding Support",
+		"HTML5",
+		"jQuery",
+		"LaTeXTools",
+		"Markdown Extended",
+		"Package Control",
+		"SimpleClone",
+		"SublimeEvernote",
+		"SublimeLinter",
+		"sublimetext-markdown-preview"
+	]
+}
