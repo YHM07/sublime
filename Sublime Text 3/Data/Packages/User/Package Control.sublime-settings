@@ -1,0 +1,28 @@
+{
+	"installed_packages":
+	[
+		"Alignment",
+		"AutoFileName",
+		"BracketHighlighter",
+		"Clipboard Manager",
+		"ColorPicker",
+		"ConvertToUTF8",
+		"DocBlockr",
+		"Emmet",
+		"Evernote",
+		"HTML5",
+		"HTMLAttributes",
+		"LaTeXTools",
+		"Markdown Extended",
+		"Markdown Preview",
+		"SideBarEnhancements",
+		"SimpleClone",
+		"SmartMarkdown",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"Tag",
+		"Theme - Nexus",
+		"Theme - Soda",
+		"Theme - Sodarized"
+	]
+}

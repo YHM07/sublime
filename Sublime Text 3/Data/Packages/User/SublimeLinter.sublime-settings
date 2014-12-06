@@ -1,0 +1,21 @@
+{
+	// javascript && CSS
+	"sublimelinter":"save-only",
+	"sublimelinter_executable_map":
+	{
+		"javescript":"D:/Program Files/nodejs/node.exe",
+		"css": "D:/Program Files/nodejs/node.exe"
+	},
+	// C && CPP
+	"sublimelinter_syntax_map":
+	{
+	  "Python Django": "python",
+	  "Ruby on Rails": "ruby",
+	  "C++": "c_cpplint",
+	  "C": "c_cpplint"
+	},
+	"sublimelinter_executable_map":
+	{
+	  "c_cpplint": "D:/Program Files/Cppcheck/cppcheck.exe"
+	}
+}

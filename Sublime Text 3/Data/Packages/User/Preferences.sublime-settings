@@ -1,0 +1,11 @@
+{
+	"color_scheme": "Packages/User/Nexus (SL).tmTheme",
+	"detect_slow_plugins": false,
+	"font_size": 12.0,
+	"ignored_packages":
+	[
+		"jQuery"
+	],
+	"spell_check": false,
+	"theme": "Nexus.sublime-theme"
+}
